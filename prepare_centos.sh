@@ -1,2 +1,2 @@
 #!/bin/bash
-yum -y install glibc.i686 libstdc++.i686
+yum -y install epel-release screen glibc.i686 libstdc++.i686
