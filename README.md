@@ -25,4 +25,6 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 sudo nano /etc/sysctl.conf
 vm.swappiness=90
 vm.vfs_cache_pressure=90
+
+watch tail -n 15 mylogfile.txt
 ```
