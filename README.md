@@ -3,7 +3,7 @@
 git clone https://github.com/wuster-me/valheim-linux-manager.git ~/vh
 ```
 ```
-sudo chmod +x prepare_centos.sh prepare_ubuntu.sh setup_steamcmd.sh update_valheim.sh make_swap.sh start.sh stop.sh backup.sh
+sudo chmod +x prepare_centos.sh prepare_ubuntu.sh setup_steamcmd.sh update_valheim.sh make_swap.sh start.sh stop.sh backup.sh webhook.sh
 ./make_swap.sh && ./prepare_ubuntu.sh && ./setup_steamcmd.sh && ./update_valheim.sh
 ```
 
